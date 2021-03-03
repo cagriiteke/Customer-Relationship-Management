@@ -8,7 +8,7 @@ pd.pandas.set_option('display.max_columns', None)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.width', 75)
 
-df_ = pd.read_excel("datasheets/online_retail_II.xlsx",
+df_ = pd.read_excel("datasets/online_retail_II.xlsx",
                     sheet_name="Year 2010-2011")
 
 df = df_.copy()
